@@ -4,63 +4,120 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', 'cursive';
+    --fonte3: 'Sriracha', 'cursive';
 
+}
 
-section p {
-    color: black;
-    font-family:'Sriracha', 'Times New Roman', Times, serif ;
-    text-align: left;
-    padding: 10px;
-    font-size: 1.5em;
-    font-weight: normal;
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    min-height: 100vh;
+    background-color: darkgray;
+
 }
 
 header {
     background-color: black;
     width: 100%;
     height: 200px ;
-    margin: 0px;
-    padding-top: 10px;
-    margin: 0px;
+    padding-top: 50px;
+    
+   
    
 }
 
 header > h1, p {
     color: white;
     text-align: center;
+    
+    
 }
 
 header > h1 {
-    font-family: 'Passion One', serif;
-    font-size: 4em;
-    
+    font-family: var(--fonte2);
+    font-size: 5vw;   
 
 }
 
 header a {
     color: white;
     text-decoration: none;
-    font-family: 'Sriracha' , 'Times New Roman', Times, serif;
+    font-family: var(--fonte1);
     font-weight: bold;
 }
 
  
 a:hover { 
-    color: rgba(8, 8, 190, 0.603);
+    color: rgba(8, 8, 190, 0.603);   
+}
+
+section {
+    background-color: white;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 1.5vw ;  
+    padding-top: 10vh;
    
+   
+ }
+    
+
+ section > p {
+    padding-bottom: 2em;
+    text-align: left;
+    padding-bottom: 2em;
+    padding-left: 30px;
+
+    
+ }
+
+section.normal > p {
+    background-color: white;
+    color: black;
+
+    
+
+}
+
+section.image > p {
+    background-color: gray;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+
+}
+
+section#img1 {
+    background-image: url();
 }
 
 
-footer > p, a {
+
+footer > p {
     text-decoration: none;
-    color:black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
+    color:white;
+    font-family: var(--fonte1);
+    padding: 10px;
+    font-weight: bold;
+    background-color: black;
+    text-align: center;
     padding: 10px;
    
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
 footer > a:hover {
     color: rgba(8, 8, 190, 0.603);
+
 }
 
