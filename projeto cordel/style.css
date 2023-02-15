@@ -61,7 +61,7 @@ section {
     background-color: white;
     line-height: 2em;
     font-family: var(--fonte3);
-    font-size: 1.5vw ;  
+    font-size: 1.5em; 
     padding-top: 10vh;
     padding-bottom: 10vh;
    
@@ -86,12 +86,14 @@ section.normal {
 section.image  {
     background-color: gray;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.51);
+    background-attachment: fixed;
     
 }
 
 section.image > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.499);
+    background-color: rgba(0, 0, 0, 0.338);
     padding: 5px;
     padding-left: 30px;
     color: white;
@@ -100,10 +102,10 @@ section.image > p {
 }
 
 section#img1 {
-    background-image: url('../imagens/rosa.jpg');
+    background-image: url('../imagens/rosa2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
 }
 
 section#img2 {
@@ -124,15 +126,18 @@ footer > p {
     background-color: black;
     text-align: center;
     padding: 10px;
+    font-size: 1em;
    
 }
 
 footer a {
     text-decoration: none;
     color: white;
+    
 }
 footer > a:hover {
     color: rgba(8, 8, 190, 0.603);
+    
 
 }
 
