@@ -41,3 +41,25 @@ iframe#tela {
     width: 214px;
     height: 375px;
 }
+
+section#icons {
+    text-align: right;
+    padding-top: 5%;
+}
+section#icons img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.563);
+    box-sizing: border-box; /*isso faz com que os ícones
+    façam parte da mesma caixa, assim ao passar o mouse sobre um deles, só irá movimentar este e não todos */
+
+}
+
+/*config a exibição do icones ao mover o mouse neles.Eles vão se mover levemente */
+section#icons img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.549);
+    transform: translate(-3px, -3px); /* isso faz com que o ícone tenha leve movimentação para cima e para esquerda*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.549);
+    transition: transform 0.4s; /* tempo de movimentação ao move o mouse no ícone*/
+}
