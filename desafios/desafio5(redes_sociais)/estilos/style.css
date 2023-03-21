@@ -61,5 +61,5 @@ section#icons img:hover{
     border: 2px solid rgba(255, 255, 255, 0.549);
     transform: translate(-3px, -3px); /* isso faz com que o ícone tenha leve movimentação para cima e para esquerda*/
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.549);
-    transition: transform 0.4s; /* tempo de movimentação ao move o mouse no ícone*/
+    transition: transform 0.4s; /* tempo de movimentação ao mover o mouse no ícone*/
 }
