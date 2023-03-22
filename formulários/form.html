@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--- Usar a label para fazer a ligação entre o objeto e a etiqueta.
+        Isso será feito através do FOR, que pode ser passado tanto o parâmetro NAME quanto o ID. 
+
+        Para armazenar essas informações em algum lugar, será usado o PHP, linguagem mais popular para isso. Esse armazenamento é feito através do parâmetro ACTION.
+    
+    -->
+
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="name">Nome:</label>
+            <input type="text" name="nome" id="name"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="Sobrenome" id="isobrenome"></p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
