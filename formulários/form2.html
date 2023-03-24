@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro Funcionário</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p>
+            <label for="employee">Funcionário</label>
+            <input type="text" name="empregado" id="employee" required maxlength="30" placeholder="Nome completo" required>
+        </p>
+        <p>
+            <label for="office">Cargo</label>
+            <input type="text" name="cargo" id="office" required>
+        </p>
+        <p>
+            <label for="admissao">Admissão</label>
+            <input type="date" name="ingresso" id="admissao" required>
+        </p>
+        <p>
+            <label for="salary">Salário</label>
+            <input type="number" name="salario" id="salary" required min="1000">
+        </p>
+        <p>
+            <label for="enter">Entrada</label>
+            <input type="time" name="hora" id="enter" placeholder="Horário de entrada" required>
+        </p>
+        <p>
+            <label for="saida">Saída</label>
+            <input type="time" name="saida1" id="saida" placeholder="Horário de saída" required>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
